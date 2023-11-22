@@ -1,0 +1,29 @@
+# requirements.txt
+
+# Neurodata Without Borders (NWB) library
+pynwb
+
+# DANDI API Client
+dandi
+# tiffit converter
+tiffit
+# fsspec and CachingFileSystem
+fsspec
+
+# HDF5 library
+h5py
+
+# pynapple library
+pynapple
+
+# Matplotlib for plotting
+matplotlib
+
+# Seaborn for statistical data visualization
+seaborn
+
+# NumPy for numerical operations
+numpy
+
+# ImageIO for reading and writing images
+imageio
