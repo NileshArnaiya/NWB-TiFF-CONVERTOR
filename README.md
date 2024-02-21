@@ -19,22 +19,6 @@ The project supports the conversion of NumPy arrays to TIFF format. This functio
 
 The tool integrates with `tiffit` to convert TIFF files into a workable format. This step ensures that the TIFF files are processed and formatted in a way that is conducive to further analysis.
 
-
-## Usage
-
-To use the command line tool, follow the steps below:
-
-1. Run the command line tool with the appropriate input parameters.
-2. Load the NWB file using `pynapple`.
-3. Convert NumPy arrays to TIFF files.
-4. Utilize `tiffit` to process TIFF files for analysis.
-5. Choose the option to convert NWB files to DLC or point to additional tools in the NWB ecosystem.
-
-## Requirements
-
-- Python (version 3.8 and above)
-- Additional dependencies in `requirements.txt`
-
 ## Installation
 
 1. Clone the repository:
@@ -50,3 +34,20 @@ python main.py --dandiset_id 000582 --file_path sub-10073_ses-17010302_behavior+
 License
 
 This project is licensed under the Creative Commons License - see the LICENSE.md file for details
+
+## Usage
+
+To use the command line tool, follow the steps below:
+
+1. Run the command line tool with the appropriate input parameters.
+2. Load the NWB file using `pynapple` or you can load DANDI datasets.
+3. Convert NumPy arrays to TIFF files.
+4. Utilize `tiffit` to process TIFF files for analysis.
+5. Choose the option to convert NWB files to DLC or point to additional tools in the NWB ecosystem.
+
+## Requirements
+
+- Python (version 3.8 and above)
+- Additional dependencies in `requirements.txt`
+
+
