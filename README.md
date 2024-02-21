@@ -30,6 +30,9 @@ pip install -r requirements.txt
 python main.py --input_file your_nwb_file.nwb output_file_name.tiff
 or
 python main.py --dandiset_id 000582 --file_path sub-10073_ses-17010302_behavior+ecephys.nwb --output_path output_file.tiff
+```
+
+
 
 License
 
