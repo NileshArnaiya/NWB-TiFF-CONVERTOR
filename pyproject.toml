@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nwb-tiff"
+version = "0.1.0"
+description = "Convert NWB files to TIFF format"
+readme = "README.md"
+authors = [
+    {name = "NileshArnaiya"}
+]
+license = {text = "CC0-1.0"}
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/NileshArnaiya/NWB-TiFF-CONVERTOR"
+
+[project.scripts]
+nwb-tiff = "main:main"
